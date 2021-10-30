@@ -1,17 +1,25 @@
 {
-  "name": "whatsapp-bot",
+  "name": "dea.afrizal-simple-wabot-webhook",
   "version": "1.0.0",
-  "description": "Simple bot for chat-api.com",
+  "description": "ini hanya webhook",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "A.K.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatapi/whatsapp-nodejs-bot-en.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chatapi/whatsapp-nodejs-bot-en/issues"
+  },
+  "homepage": "https://github.com/chatapi/whatsapp-nodejs-bot-en#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.0",
-    "request": "^2.88.2"
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.15.1"
   }
 }
